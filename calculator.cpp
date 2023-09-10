@@ -18,7 +18,7 @@ int main()
     cin >> user;
     cout << endl;
 
-    if (user == 1)
+    if (user == 1) //for Addition
     {
         cout << "Enter a number: ";
         cin >> x;
@@ -28,7 +28,7 @@ int main()
         cout << Add(x, y);
 
     }
-    else if(user == 2)
+    else if(user == 2)//for Subtraction
     {
         cout << "Enter a number: ";
         cin >> x;
@@ -37,7 +37,7 @@ int main()
         cout << Sub(x, y);
 
     }
-    else if(user == 3)
+    else if(user == 3)//for Division
     {
         cout << "Enter a number: ";
         cin >> x;
@@ -46,7 +46,7 @@ int main()
         Divide(x,y);
 
     }
-    else if(user == 4)
+    else if(user == 4)//for Multiplication
     {
         cout << "Enter a number: ";
         cin >> x;
