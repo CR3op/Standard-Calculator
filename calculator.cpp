@@ -1,11 +1,7 @@
 #include <iostream>
+#include "operations.h"
 
 using namespace std;
-
-int Add(int x, int y);
-int Sub(int x, int y);
-void Divide(double x, double y);
-void Mult(double x, double y);
 
 int main()
 {
@@ -56,34 +52,6 @@ int main()
     }
 
     return 0;
-}
-
-int Add(int x, int y)
-{
-    cout << "The total value is: ";
-    
-    return x + y;
-}
-
-int Sub(int x, int y)
-{
-    cout << "The total value is: ";
-    
-    return x - y;
-}
-
-void Divide(double x, double y)
-{
-    double div = x/y;
-    cout << "The total value is: " << div;
-    
-}
-
-void Mult(double x, double y)
-{
-    double m = x * y;
-    cout << "The total value is: " << m;
-
 }
 
 
